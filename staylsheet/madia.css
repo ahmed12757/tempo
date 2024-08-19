@@ -1,0 +1,159 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  header .nav ul {
+    display: none;
+  }
+  header .nav i {
+    display: flex;
+  }
+  .sec-1 .text h3 {
+    font-size: 22px;
+  }
+  .sec-1 .text h1 {
+    font-size: 28px;
+  }
+  .sec-1 .text h2 {
+    font-size: 18px;
+  }
+  .titel .text-2 {
+    margin: 15px 0 0;
+  }
+  .sec-2 article.text-sec-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-2 article.text-sec-2 .right-text {
+    width: 100%;
+  }
+  .sec-2 article.text-sec-2 .lift-text {
+    width: 100%;
+  }
+  .sec-2 article.text-sec-2 .right-text {
+    padding: 24px 12px 0;
+  }
+  .sec-3 .all-cards .card {
+    width: 50%;
+    padding: 0 12px;
+    margin: 0 0 48px;
+  }
+  .sec-3 .all-icon .icons {
+    width: 33.33%;
+  }
+  .sec-5 .all-cards .card {
+    width: calc((100% - var(--gap) * 1) / 2);
+  }
+  .sec-6 {
+    .all-cards {
+      .card {
+        width: calc((100% - 15px) / 2);
+      }
+    }
+  }
+  .sec-7 {
+    .contener {
+      .all-cards {
+        .card {
+          width: calc((100% - 15px) / 2);
+        }
+      }
+    }
+  }
+  .sec-8 {
+    .contener {
+      .info-sec {
+
+        form {
+          width: 100%;
+        }
+      }
+    }
+  }
+  footer{
+    .contener{
+      .all-sec{
+        .sec{
+          width: calc((100% - 15px)/2);
+        }
+        .sec2{
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .contener {
+    width: 80%;
+  }
+  .sec-3 .all-cards .card {
+    width: 100%;
+  }
+  .sec-3 .all-icon .icons {
+    width: 50%;
+  }
+  .sec-5 .all-cards .card {
+    width: 100%;
+  }
+  .sec-6 {
+    .contener {
+      .all-cards {
+        .card {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .sec-7 {
+    .contener {
+      .all-cards {
+        .card {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .sec-8 {
+    .contener {
+      .info-sec {
+
+        form {
+          .name {
+            width: 100%;
+          }
+          .email{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+footer{
+    .contener{
+      .all-sec{
+        justify-content: center;
+        .sec{
+          width: 100%;
+        }
+        .sec2{
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+  .footer{
+    .contener{
+      .content{
+        text-align: center;
+        justify-content: center;
+        p{
+          width:100% ;
+        }
+
+      }
+    }
+  }
+
+}
